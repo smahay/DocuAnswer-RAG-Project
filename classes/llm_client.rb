@@ -6,9 +6,9 @@ require "json"
 # class defines a blueprint for objects.
 # This class talks to the Gemini Chat API and returns the final answer text.
 class LLMClient
-  # model = "gemini-2.0-flash" means:
-  # this argument has a default value.
-  def initialize(api_key, model = "gemini-2.0-flash")
+  # model = nil means:
+  # if caller does not pass a model, we choose one below.
+  def initialize(api_key, model = nil)
     # nil? means "no value".
     # strip removes spaces at the start and end of text.
     # empty? means "string has zero characters".
@@ -20,7 +20,20 @@ class LLMClient
     # Variables starting with @ are instance variables.
     # They belong to this object and are available in other methods.
     @api_key = api_key
-    @model = model
+    # Pick model in this order:
+    # 1) method argument `model` if provided
+    # 2) environment variable GEMINI_MODEL if provided
+    # 3) fallback default "gemini-2.5-flash"
+    if model.nil? || model.strip.empty?
+      env_model = ENV["GEMINI_MODEL"]
+      if env_model.nil? || env_model.strip.empty?
+        @model = "gemini-2.5-flash"
+      else
+        @model = env_model
+      end
+    else
+      @model = model
+    end
     @url = URI("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions")
   end
 
