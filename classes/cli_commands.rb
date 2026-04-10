@@ -152,10 +152,11 @@ class CLICommands
     prompt = prompt_builder.build_grounded_prompt(question, top_chunks)
 
     llm_client = LLMClient.new(api_key)
-    answer = llm_client.generate_answer(prompt)
+    answer = llm_client.generate_answer(prompt).to_s.strip
 
-    # Print answer.
-    @output.puts "Answer:"
+    # Print the model answer exactly as it comes back.
+    # The prompt already asks the model to return:
+    # "Answer: ..."
     @output.puts answer
     @output.puts "-" * 50
     @output.puts "Sources used:"
