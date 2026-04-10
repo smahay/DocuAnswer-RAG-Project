@@ -15,7 +15,7 @@ class DocumentLoader
     end
 
     # Check to see if any content was read
-    text.strip
+    text = text.strip
     if text == ""
       throw "DocumentLoader failed to find text in '#{fileName}."
     end
