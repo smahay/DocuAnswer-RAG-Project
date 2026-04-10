@@ -1,5 +1,5 @@
 class TextCleaner
-  def cleanText(text)
+  def clean_text(text)
     puts "Text length before cleaning: #{text.length}"
 
     # Remove all special characters

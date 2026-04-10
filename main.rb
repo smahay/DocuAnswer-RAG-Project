@@ -5,11 +5,11 @@ require_relative "classes/embedding_generator"
 require_relative "classes/vector_store"
 
 # Initialize the components of the RAG system
-docLoader = DocumentLoader.new
-textCleaner = TextCleaner.new
-textChunker = TextChunker.new(100, 20)
-embedGen = EmbeddingGenerator.new
-vectorStore = VectorStore.new
+doc_loader = DocumentLoader.new
+text_cleaner = TextCleaner.new
+text_chunker = TextChunker.new(100, 20)
+embed_gen = EmbeddingGenerator.new("API Key")
+vector_store = VectorStore.new("data/vector_store.json")
 
 puts "DocuAnswer RAG 1.0"
 puts "Enter q to quit."
@@ -36,7 +36,7 @@ while true
   end
 
   # input has been verified as a valid filepath, now we process the document
-  text = docLoader.loadDocument(input)
-  text = textCleaner.cleanText(text)
-  chunks = textChunker.chunk_text(text)
+  text = doc_loader.load_document(input)
+  text = text_cleaner.clean_text(text)
+  chunks = text_chunker.chunk_text(text)
 end

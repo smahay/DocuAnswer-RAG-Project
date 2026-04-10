@@ -1,7 +1,7 @@
 require "pdf-reader"
 
 class DocumentLoader
-  def loadDocument(fileName)
+  def load_document(fileName)
     puts "Loading document '#{fileName}'..."
     text = ""
     extension = File.extname(fileName)
