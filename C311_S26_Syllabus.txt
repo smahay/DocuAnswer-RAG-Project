@@ -1,0 +1,255 @@
+SP26: PROGRAMMING LANGUAGES: 17406
+Syllabus
+C311: PROGRAMMING LANGUAGES
+Indiana University South Bend
+Instructor Information
+Name: Dr. Sree Malladi
+Office:  NS 338                            
+Office Hours: MTW 11:30 AM - 12:45 PM
+Email: smalladi@iu.edu     
+
+Course description
+Study of the fundamental concepts of modern programming languages. Comparison of programming language design, implementation, and use in different programming language paradigms. Design and implementation of simple programming languages.
+
+Student Learning Outcomes (SLOs):
+By the end of the course, the student should be able to:
+
+SLO1 - Learn the design, compilation and execution of programs;
+
+SLO2 - Learn various features of programming languages;
+
+SLO3 - Learn the details of the various types of programming languages;
+
+SLO4 - Learn the selection and application of languages to handle given tasks.
+
+
+Required materials
+
+Textbook - Concepts of Programming Languages, 12th edition, Published by Pearson (February 14, 2018) © 2019. 
+
+Lecture notes, PowerPoint Presentations, and other resources will be provided.
+
+Evaluation and Assessment:
+MIDTERM EXAM                                  (25%)       
+
+FINAL EXAM                                         (25%)
+
+QUIZZES                                                (10%)
+
+HOMEWORK                                        (20%)
+
+LABS                                                       (10%)
+
+PROJECT                                                (10%)
+
+Exams
+There will be two exams: midterm and final. The midterm exam will cover the first four modules, while the final exam will cover the last four modules.
+
+Quizzes
+There will be two quizzes: one after Module 2 and another after Module 6, each consisting of 20 True/False and/or Multiple questions.
+
+Homework, Lab Assignments
+There will be regular homework and lab assignments spaced throughout the course at the end of modules that will be submitted through Canvas. The submission guidelines will be explained in class.
+
+Project
+
+There will be one final course project assigned at the end of Module 5 and to be finished at the end of Module 7.
+
+Late work/Make up policy:
+Assignments must be submitted in time to receive full credit. Late submissions will not be accepted, and will receive zero credit.
+
+Grade determination
+The following distribution will be used in assigning grades (decimal points will be rounded to the nearest whole number at semester’s end):
+
+ 
+
+Grade
+
+Comment
+
+Percentage
+
+A
+
+Exceptional
+
+94% to 100%
+
+A-
+
+Superior
+
+90% to 93%
+
+B+
+
+Excellent
+
+87% to 89%
+
+B
+
+Very good
+
+84% to 86%
+
+B-
+
+Good
+
+80% to 83%
+
+C+
+
+Above average
+
+77% to 79%
+
+C
+
+Average
+
+74% to 76%
+
+C-
+
+Below Average
+
+70% to 73%
+
+D+
+
+Marginal
+
+67% to 69%
+
+D
+
+Poor
+
+60% to 66%
+
+F
+
+Failure
+
+Below 60%
+
+ 
+
+Topics
+(This is a tentative list of topics, subject to changes as the semester progresses).
+
+
+
+
+MODULE
+
+CONTENT
+
+SLO
+
+1
+
+Chapters 1, 2
+
+1, 4
+
+2
+
+Chapter 3
+
+1
+
+3
+
+Chapters 5, 6
+
+2
+
+4
+
+Chapters 7, 8
+
+2
+
+5
+
+Chapters 9, 10
+
+2
+
+6
+
+Chapters 11, 12
+
+3, 4
+
+7
+
+Chapters 13, 14
+
+2
+
+8
+
+Chapters 15, 16
+
+3, 4
+
+ 
+
+Attendance
+Regular attendance to classes is expected.
+
+Re-evaluating Graded Work
+If you’d like me to re-evaluate any graded work please follow the directions below.
+
+ 
+
+Please submit a typed request that includes the following:
+ 
+
+Your name.
+For each problem that you would like me to re-evaluate, please include the problem number and a defense for the answer you provided.
+Your signature.
+ 
+
+Please staple your request to your original work (if on paper).
+ 
+
+Your request must be submitted by the end of business on the day of the next lecture that follows the day in which you received your grade or graded work back.
+No Re-entry Rule
+Once an exam has started, if you leave the room you are not allowed to re-enter the room until the exam has ended.
+
+Make-Up Quizzes & Exams
+Make-up quizzes and exams will not be given and the student will receive a grade of zero unless arrangements are made with the professor in advance or in the case of an emergency. Students that arrive late for a quiz or exam will not be given additional time unless arrangements are made with the professor in advance or in the case of an emergency.
+
+Expected Classroom behaviour:
+Students are expected to be respectful to the instructor and classmates during class at all times. Failure to be respectful and/or engaging in class disruption can result in the student being asked to leave the class and reported to the college committee that deals with classroom disruption. A note will also be entered into the student record on which will be sent to the student’s advisor.
+
+ 
+
+In addition, please note the following:
+
+ 
+
+Use of cell phones is not allowed during class for any purpose including talking, texting or  viewing pictures.
+Browsing the Internet for any purpose other than class-related activity is disallowed. This includes social networking sites (Facebook, LinkedIn, google circles etc.) and any other websites not explicitly asked by the instructor to be opened.
+Eating or drinking inside class is not allowed, except for pure water (that is not coloured or mixed with other substances such as sugar).
+Students must finish their restroom use before entering class. Once inside class, they are obligated to sit for the entire duration of the class, unless there is an emergency. It is not acceptable to leave for restroom breaks for regular use that could have been finished before entering class or exiting class.
+Talking to each other is not allowed, when the instructor is lecturing. It is acceptable however to interact with each other when assigned in-class activities are being worked on. Talking to each other while the instructor is talking, disrupts surrounding students and the instructor. This is strictly disallowed. If students have questions, they can raise their hand and ask the instructor for an explanation. Asking other students is not a valid excuse for talking when a lecture is in progress.
+ 
+
+If the instructor notices someone violating these policies, the student will be asked to leave the class and meet with the instructor privately in his office before returning to the next class.
+
+Additional Information:
+The statements listed below are available online at https://academics.iusb.edu/syllabus-statements/index.htmlLinks to an external site. and apply to this course. These statements include information about expectations to which you will be held as well as support available for you. As such, it is vital you review this information at least once each semester and let me know if you have any questions.
+
+ 
+
+Accessibility and Accommodations Statement
+Bias Incident Reporting
+Accommodations for Religious Observance Statement
+Academic Honesty Statement
+Indiana University Policy on Discrimination, Harassment, and Sexual Misconduct.
