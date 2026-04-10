@@ -5,8 +5,8 @@ require_relative "text_cleaner"
 require_relative "text_chunker"
 require_relative "embedding_generator"
 require_relative "vector_store"
-require_relative "../similarity_retriever"
-require_relative "../prompt_builder"
+require_relative "similarity_retriever"
+require_relative "prompt_builder"
 require_relative "llm_client"
 
 class CLICommands
