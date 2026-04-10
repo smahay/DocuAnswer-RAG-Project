@@ -5,6 +5,9 @@ GEM
     afm (1.0.0)
     bigdecimal (3.3.1)
     hashery (2.1.2)
+    json (2.19.3)
+    net-http (0.9.1)
+      uri (>= 0.11.1)
     pdf-reader (2.15.1)
       Ascii85 (>= 1.0, < 3.0, != 2.0.0)
       afm (>= 0.2.1, < 2)
@@ -14,12 +17,15 @@ GEM
     ruby-rc4 (0.1.5)
     ttfunk (1.8.0)
       bigdecimal (~> 3.1)
+    uri (1.1.1)
 
 PLATFORMS
   ruby
   x86_64-linux
 
 DEPENDENCIES
+  json (~> 2.19)
+  net-http (~> 0.9.1)
   pdf-reader (~> 2.15)
 
 CHECKSUMS
@@ -27,9 +33,12 @@ CHECKSUMS
   afm (1.0.0) sha256=5bd4d6f6241e7014ef090985ec6f4c3e9745f6de0828ddd58bc1efdd138f4545
   bigdecimal (3.3.1) sha256=eaa01e228be54c4f9f53bf3cc34fe3d5e845c31963e7fcc5bedb05a4e7d52218
   hashery (2.1.2) sha256=d239cc2310401903f6b79d458c2bbef5bf74c46f3f974ae9c1061fb74a404862
+  json (2.19.3) sha256=289b0bb53052a1fa8c34ab33cc750b659ba14a5c45f3fcf4b18762dc67c78646
+  net-http (0.9.1) sha256=25ba0b67c63e89df626ed8fac771d0ad24ad151a858af2cc8e6a716ca4336996
   pdf-reader (2.15.1) sha256=18c6a986a84a3117fa49f4279fc2de51f5d2399b71833df5d2bccd595c7068ce
   ruby-rc4 (0.1.5) sha256=00cc40a39d20b53f5459e7ea006a92cf584e9bc275e2a6f7aa1515510e896c03
   ttfunk (1.8.0) sha256=a7cbc7e489cc46e979dde04d34b5b9e4f5c8f1ee5fc6b1a7be39b829919d20ca
+  uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
 
 BUNDLED WITH
   4.0.10
