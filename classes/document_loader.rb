@@ -22,17 +22,10 @@ class DocumentLoader
 
     puts "Finished reading document."
     
-    puts "Text found: ---------------------------------------------------------"
-    puts text
-    puts "---------------------------------------------------------------------"
+    # puts "Text found: ---------------------------------------------------------"
+    # puts text
+    # puts "---------------------------------------------------------------------"
     
     return text
   end
 end
-
-# Testing out class
-puts "Starting documentLoader..."
-docLoader = DocumentLoader.new
-
-docLoader.loadDocument("C311_S26_Syllabus.txt")
-docLoader.loadDocument("C455_S26_Syllabus.pdf")

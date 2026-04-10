@@ -9,3 +9,6 @@ text = docLoader.loadDocument("C455_S26_Syllabus.pdf")
 
 textCleaner = TextCleaner.new
 text = textCleaner.cleanText(text)
+
+text = docLoader.loadDocument("C311_S26_Syllabus.txt")
+text = textCleaner.cleanText(text)
